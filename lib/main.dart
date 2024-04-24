@@ -1,16 +1,15 @@
 import 'package:flutter/material.dart';
-import 'views/posts_page.dart';
+import 'views/login_page.dart';
 
-void main() => runApp(const MyApp());
+void main() => runApp(MyApp());
 
 class MyApp extends StatelessWidget {
-  const MyApp({super.key});
-
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Flutter Posts & Comments',
-      home: PostsPage(),
+      title: 'Posts & Comentarios',
+      home: LoginPage(),
+      debugShowCheckedModeBanner: false,
     );
   }
 }
